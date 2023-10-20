@@ -1,0 +1,175 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 20px 0px 20px 0px;
+    background-color: wheat;
+}
+/****Navbar****/
+.navbar{
+    padding: 0px;
+    margin: 0px 2% 0px 2%;
+    padding-left: 2%;
+    background-color: chartreuse;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.list1{
+    background-color:burlywood;
+}
+.list2{
+    background-color: yellow;
+}
+.nav-link:hover,.list2 a:hover{
+    background-color: white;
+}
+/****Body image****/
+#background{
+    margin: 0px 2% 0px 2%;
+    height: 520px;
+    background: url('../images/image1.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    border: 2.5px solid gold;
+}
+/***Image caption**/
+#discription{
+    width: 40%;
+    height: 120px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0px 10px 0px; 
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 60px;
+}
+/****Quotes are present inside #quote****/
+#next1, #next2, #next3{
+    width: 20%;
+    margin: 5px auto 15px auto;
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+#next1:hover,#next2:hover,#next3:hover{
+    cursor: pointer;
+}
+#quote{
+    position: relative;
+    bottom: 30px;
+}
+#quote div{
+    margin: 10px 2% 10px 2%;
+    padding: 12px 6px 12px 40px;
+    font-size: 1.2em;
+    background-color: aqua;
+    border: 1px solid crimson;
+    font-weight: bold;
+}
+#quote div>div{
+    margin: 0px;
+    padding: 2px;
+    font-size: 0.7em;
+    border: none;
+    color:darkblue;
+    margin-left: 90%;
+}
+/*****Footer****/
+footer{
+    margin: 0px 2% 0px 2%;
+}
+.row div{
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+.row p{
+    margin-bottom: 5px;
+    text-align: center;
+}
+.bg-light{
+    background: chartreuse !important;
+}
+footer{
+    border: 1px solid black;
+}
+.copyright{
+    font-weight: bold;
+}
+/**Icons**/
+.row i{
+    font-size: 30px;
+    margin: 3px;
+    padding: 2px;
+    margin-top: 0px;
+    color: black;
+}
+*{
+    user-select: none;
+}
+@media (max-width:667px){
+    #background{
+        height: 350px;
+    }
+    #discription{
+        padding-top: 30px;
+        width: 55%;
+        font-size: 1.2em;
+    }
+    #quote div>div{
+        margin-left: 70%;
+    }
+    .list1{
+        background-color: transparent;
+        padding-left: 2px;
+    }
+    .list2{
+        background-color: transparent;
+        padding-left: 2px;
+    }
+    .navbar{
+        padding: 0px;
+    }
+}
+@media (min-width:668px) and (max-width:997px){
+    #background{
+        height: 400px;
+    }
+    #quote div>div{
+        margin-left: 85%;
+    }
+    .list1{
+        background-color: transparent;
+        padding-left: 2px;
+    }
+    .list2{
+        background-color: transparent;
+        padding-left: 2px;
+    }
+    .navbar{
+        padding: 0px;
+    }
+}
+@media (min-width:998px) and (max-width:1199px){
+    #background{
+        height: 430px;
+    }
+    #quote div>div{
+        margin-left: 85%;
+    }
+    .row .col-lg-6{
+        margin-left: 0px;
+    }
+}
+@media (min-width: 1200px) {
+    .row .col-lg-6{
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Quotes</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="https://kit.fontawesome.com/c3c67523b2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <!---navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Quotes</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active list1">
+                  <a class="nav-link" href="#" onclick="english()">English<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item list2">
+                  <a class="nav-link" href="#" onclick="marathi()">Marathi</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+        <div id="background">
+        </div>
+
+        <div id="discription">
+          <div class="animate__heartBeat">ONE QUOTE CAN<br>CHANGE YOUR LIFE</div>
+          <!--<p id="subdiscription">LET US FILL POSITIVITY IN<br>YOUR LIFE</p>-->
+        </div>
+
+
+        <!---Quote-->
+        
+        <div id="quote">
+        </div>
+        <div class="pageNo" id="next1" style="background-color: blue;">Page : 1</div>
+        <div id="next2" onclick="prev()">Previous</div>
+        <div id="next3" onclick="next()">Next</div>
+
+
+
+          <!-- Footer -->
+<footer class="bg-light text-center text-lg-start">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h6 class="text-uppercase">Quotes</h6>
+  
+          <p>
+            You can get here quotes by well-known personalities
+          </p>
+        </div>
+
+        <div>
+          <p>Follow us</p>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Copyright -->
+    <div class="text-center p-3 copyright" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-dark" href="">Quotes</a>
+    </div>
+  </footer>
+    </body>
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</html>
